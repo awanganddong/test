@@ -42,28 +42,7 @@
                 <string>%s</string>
                 <key>kind</key>
                 <string>software</string>
-				<key>MinimumOSVersion</key>
-				<string>12.0</string>
             </dict>
-			<key>NSAppTransportSecurity</key>
-			<dict>
-				<key>NSAllowsArbitraryLoads</key>
-				<true/>
-				<key>NSExceptionDomains</key>
-				<dict>
-					<key>api.lanlang.xyz</key>
-					<dict>
-						<key>NSIncludesSubdomains</key>
-						<true/>
-						<key>NSExceptionAllowsInsecureHTTPLoads</key>
-						<true/>
-						<key>NSExceptionRequiresForwardSecrecy</key>
-						<false/>
-						<key>NSTemporaryExceptionMinimumTLSVersion</key>
-						<string>TLSv1.0</string>
-					</dict>
-				</dict>
-			</dict>
         </dict>
     </array>
 </dict>
